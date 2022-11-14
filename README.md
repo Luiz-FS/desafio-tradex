@@ -7,7 +7,9 @@ O projeto foi construído utilizando o framework Django Rest Framework. Ele est�
 Basicamente a ```API``` receberá os dados dos produtos a serem salvos e inicialmente irá checar no serviço de autenticação se o usuário que está tentando realizar a operação existe, se sim, salvará os dados, caso contrario retornará erro. A mesma coisa ocorre nas rotas de variação do preço de acordo com a [especificação do projeto](./README_BASE.md).
 
 Os diagramas abaixo mostram a arquitetura do projeto explicada e o modelo do banco:
+
 ![desafio dev art](./art.jpg)
+
 ![desafio dev erd](./api/market/erd.png)
 
 ## Iniciando o projeto
