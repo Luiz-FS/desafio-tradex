@@ -1,0 +1,74 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$5M2nZ2GeLfqRjpVJnjRwN8$krnFmWAFkYrcnjheqjAbxU+0AewA/TBNMr5T5Jx2LpQ=",
+        "last_login": "2022-11-13T22:55:21.200Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "root@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-13T22:50:45.947Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$hw8PgGvZeD5V9j2HbnZtkV$ViPjfojxgGMKrNB4Gj3nkfeSYtuHUgXROxVCDR5O1bo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user01",
+        "first_name": "Primeiro",
+        "last_name": "Usuario",
+        "email": "user01@desafio.tradex.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-13T22:54:06.391Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$aoX8oryskjA2oqIE4RwVvc$9G6kaqRtxTmGOD3brNRLdTzxrZKvtPm+K63SJVWAl6A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user02",
+        "first_name": "Segundo",
+        "last_name": "Usuario",
+        "email": "user02@desafio.tradex.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-13T22:54:38.082Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$LW3341GVIBAdLxaVX2acPc$jrdfizn/4qIWs8WtglpvTkBHgxKML1TqY5/dIWeQDeY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user03",
+        "first_name": "Terceiro",
+        "last_name": "Usuario",
+        "email": "user03@desafio.tradex.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-11-13T22:54:56.862Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
