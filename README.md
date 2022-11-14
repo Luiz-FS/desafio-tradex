@@ -55,6 +55,9 @@ OBS 2: Os usuários já cadastrados são: User01, User02, User03 e suas senhas s
 ### Criando um novo produto
 Para criar um novo produto basta enviar uma requisição POST para a rota `/api/product/` com os dados exemplificados na documentação da API. Após isso é possível enviar a imagem do produto na rota `/api/product/{id}/upload_image/` com o campo file, assim como mostrado na documentação.
 
+A rota de upload de imagem retornará os dados do produto junto com o nome da imagem salva. Essa imagem pode ser visualizada por meio da seguinte url:
+[http://localhost:8081/process_area/{nome-da-imagem}](http://localhost:8081/process_area/{nome-da-imagem}).
+
 ## Visualizando eventos gerados pelos usuários
 Para visualizar os eventos gerados pelos usuários é preciso acessar o painel admin na seguinte url: [http://localhost:8082/api/admin/events/event/](http://localhost:8082/api/admin/events/event/). Para realizar o login use as seguintes credenciais:
 
