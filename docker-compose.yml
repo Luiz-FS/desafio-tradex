@@ -1,0 +1,69 @@
+version: "3"
+services:
+
+  proxy:
+    build:
+      context: ./reverse_proxy
+    depends_on:
+      - api
+      - authenticator
+    ports:
+      - "8081:80"
+    restart: on-failure
+    networks:
+      - default
+    volumes:
+      - process_area:/opt/process_area/
+    
+  admin-proxy:
+    build:
+      context: ./admin_proxy
+    depends_on:
+      - api
+      - authenticator
+    ports:
+      - "8082:80"
+    restart: on-failure
+    networks:
+      - default
+    volumes:
+      - static:/opt/app/static/
+
+  api:
+    build: ./api
+    command: gunicorn -b :8000 market.wsgi:application
+    depends_on:
+      - authenticator
+    environment:
+      - DEBUG=True
+      - DB_URI=postgresql://postgres:postgres@db:5432/tradex
+      - AUTHENTICATOR_URI=http://authenticator:8000
+      - PROCESS_AREA=/opt/process_area
+    # ports:
+    #   - "8000:8000"
+    networks:
+      - default
+    volumes:
+      - process_area:/opt/process_area/
+      - static:/app/static/
+    restart: on-failure
+  
+  authenticator:
+    build: ./authenticator
+    command: gunicorn -b :8000 authenticator.wsgi:application
+    environment:
+      - DEBUG=True
+      - DB_URI=postgresql://postgres:postgres@db-authenticator:5432/authenticator
+    # ports:
+    #   - "8001:8000"
+    networks:
+      - default
+    restart: on-failure
+
+volumes:
+  process_area:
+  static:
+
+networks:
+  default:
+    driver: bridge

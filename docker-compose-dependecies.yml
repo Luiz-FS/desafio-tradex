@@ -1,0 +1,35 @@
+version: "3"
+services:
+  db:
+    image: postgres:11-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=tradex
+    networks:
+      - default
+    volumes:
+      - api_data:/var/lib/postgresql/data/
+
+  db-authenticator:
+    image: postgres:11-alpine
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=authenticator
+    networks:
+      - default
+    volumes:
+      - authenticator_data:/var/lib/postgresql/data/
+
+volumes:
+  api_data:
+  authenticator_data:
+
+networks:
+  default:
+    driver: bridge
