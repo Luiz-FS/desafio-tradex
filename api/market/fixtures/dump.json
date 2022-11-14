@@ -1,0 +1,782 @@
+[
+{
+    "model": "product.product",
+    "pk": "0169dd1c-8240-4db0-8745-d9f5a6e80968",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.502Z",
+        "updated_at": "2022-11-14T00:47:04.502Z",
+        "name": "Detergente",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "0643a040-33b5-428e-a446-5463189d40f4",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.632Z",
+        "updated_at": "2022-11-14T00:47:04.632Z",
+        "name": "Pão",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "097b0b4f-b1e5-4aa9-822a-958f5b201a2e",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.125Z",
+        "updated_at": "2022-11-14T00:47:04.125Z",
+        "name": "Tomate",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "10924c0e-55fc-4594-8aed-cd63cb527519",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.589Z",
+        "updated_at": "2022-11-14T00:47:04.589Z",
+        "name": "Frango",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "112bfcf2-5c1e-4485-8535-2556e8478d17",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.718Z",
+        "updated_at": "2022-11-14T00:47:04.718Z",
+        "name": "Vassoura",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "1efaada1-fcd4-4c5f-8e22-72e79ed4cc80",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.416Z",
+        "updated_at": "2022-11-14T00:47:04.416Z",
+        "name": "Pneu",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "2d83ba0a-c39d-40bf-807f-af041e016423",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.890Z",
+        "updated_at": "2022-11-14T00:47:04.890Z",
+        "name": "Refrigerante",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "38db57c3-e91c-4069-a410-e34860bc2a30",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.080Z",
+        "updated_at": "2022-11-14T00:47:04.080Z",
+        "name": "Alface",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "39cf2f0e-e71e-4d77-8298-6140fe5875af",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.165Z",
+        "updated_at": "2022-11-14T00:53:47.104Z",
+        "name": "Pera",
+        "ean": 6456,
+        "image": "a8dc3f98-cebd-47c2-b5a2-1ceba0747179-1668387227.103915.png",
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "6e50970f-d60c-49dc-9dfb-81df28b9aa01",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.249Z",
+        "updated_at": "2022-11-14T00:47:04.249Z",
+        "name": "Carne",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "719178ae-3145-4b5a-951e-da4d9bda43e5",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.373Z",
+        "updated_at": "2022-11-14T00:47:04.373Z",
+        "name": "Cebola",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "81775ef0-b87e-4be8-8123-dce526eadbe4",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.208Z",
+        "updated_at": "2022-11-14T00:47:04.208Z",
+        "name": "Maçã",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "99c4d68b-2068-4567-991b-60c825df13ac",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.761Z",
+        "updated_at": "2022-11-14T00:47:04.761Z",
+        "name": "Martelo",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "a797b9f8-d61d-4881-bde7-5d9578c0bcf7",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.805Z",
+        "updated_at": "2022-11-14T00:47:04.805Z",
+        "name": "Vinagre",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "aac3b92b-7acc-4043-92ed-aa3756f1d59c",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.847Z",
+        "updated_at": "2022-11-14T00:47:04.847Z",
+        "name": "Sorvete",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "adbfa59f-9a60-4b9f-9d7e-80fc8154f1d4",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.331Z",
+        "updated_at": "2022-11-14T00:47:04.331Z",
+        "name": "Batata",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "b15b26c5-fc1f-46e3-b37a-0ee020ab4d0d",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.459Z",
+        "updated_at": "2022-11-14T00:47:04.459Z",
+        "name": "Alicate",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "dfba104b-993c-4cd3-89f0-f10124305227",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.674Z",
+        "updated_at": "2022-11-14T00:47:04.674Z",
+        "name": "Bolo",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "ebb7b119-d214-40fe-8d74-0b5450e04abc",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.546Z",
+        "updated_at": "2022-11-14T00:47:04.546Z",
+        "name": "Sabonete",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product.product",
+    "pk": "ec91d00d-c1c1-4aaa-a1e1-8559ad7b159b",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.290Z",
+        "updated_at": "2022-11-14T00:47:04.291Z",
+        "name": "Uva",
+        "ean": 6456,
+        "image": null,
+        "weight": 1,
+        "min_cost": "3.00",
+        "max_cost": "20.00"
+    }
+},
+{
+    "model": "product_cost.productcost",
+    "pk": "0d89b9d8-6bc4-4b7c-8f5b-7730de15ea80",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.389Z",
+        "updated_at": "2022-11-14T00:52:50.389Z",
+        "product": "2d83ba0a-c39d-40bf-807f-af041e016423",
+        "cost": "10.00",
+        "date": "2022-11-14"
+    }
+},
+{
+    "model": "product_cost.productcost",
+    "pk": "3051b9e2-8f21-4f47-bd99-d28af862cf0b",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.248Z",
+        "updated_at": "2022-11-14T00:52:50.248Z",
+        "product": "39cf2f0e-e71e-4d77-8298-6140fe5875af",
+        "cost": "10.00",
+        "date": "2022-11-14"
+    }
+},
+{
+    "model": "product_cost.productcost",
+    "pk": "69a69945-4438-4599-a284-99f069ec31f5",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.342Z",
+        "updated_at": "2022-11-14T00:52:50.342Z",
+        "product": "0643a040-33b5-428e-a446-5463189d40f4",
+        "cost": "10.00",
+        "date": "2022-11-14"
+    }
+},
+{
+    "model": "product_cost.productcost",
+    "pk": "f1235425-eef9-4900-919c-8fdf7ac8ff59",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.299Z",
+        "updated_at": "2022-11-14T00:52:50.299Z",
+        "product": "1efaada1-fcd4-4c5f-8e22-72e79ed4cc80",
+        "cost": "10.00",
+        "date": "2022-11-14"
+    }
+},
+{
+    "model": "events.event",
+    "pk": "09cc2ddc-5ceb-4d68-8fb6-8ea0b89859c9",
+    "fields": {
+        "created_at": "2022-11-14T00:53:47.114Z",
+        "updated_at": "2022-11-14T00:53:47.114Z",
+        "name": "update_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "39cf2f0e-e71e-4d77-8298-6140fe5875af",
+        "data": {
+            "image": "a8dc3f98-cebd-47c2-b5a2-1ceba0747179-1668387227.103915.png"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "0ec4e68b-3802-4ea1-a5fc-ca22b48c586c",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.505Z",
+        "updated_at": "2022-11-14T00:47:04.505Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "0169dd1c-8240-4db0-8745-d9f5a6e80968",
+        "data": {
+            "ean": 6456,
+            "name": "Detergente",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "23f6ca48-9415-4aa8-8081-3c892517c3a9",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.294Z",
+        "updated_at": "2022-11-14T00:47:04.294Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "ec91d00d-c1c1-4aaa-a1e1-8559ad7b159b",
+        "data": {
+            "ean": 6456,
+            "name": "Uva",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "354f45f5-82f8-4b71-b88f-df41bfb85c90",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.808Z",
+        "updated_at": "2022-11-14T00:47:04.808Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "a797b9f8-d61d-4881-bde7-5d9578c0bcf7",
+        "data": {
+            "ean": 6456,
+            "name": "Vinagre",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "41710f73-8322-4795-90e8-7f8da537dd33",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.128Z",
+        "updated_at": "2022-11-14T00:47:04.128Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "097b0b4f-b1e5-4aa9-822a-958f5b201a2e",
+        "data": {
+            "ean": 6456,
+            "name": "Tomate",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "48c8ac0d-f50f-4638-86c3-2820435ff7ef",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.347Z",
+        "updated_at": "2022-11-14T00:52:50.347Z",
+        "name": "create_product_cost",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "69a69945-4438-4599-a284-99f069ec31f5",
+        "data": {
+            "cost": "10.00",
+            "date": "2022-11-14",
+            "product": "0643a040-33b5-428e-a446-5463189d40f4"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "49a906a9-c918-4899-8e37-5c8f4956676f",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.334Z",
+        "updated_at": "2022-11-14T00:47:04.334Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "adbfa59f-9a60-4b9f-9d7e-80fc8154f1d4",
+        "data": {
+            "ean": 6456,
+            "name": "Batata",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "616beba6-23af-40df-a963-c14670186ea3",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.211Z",
+        "updated_at": "2022-11-14T00:47:04.211Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "81775ef0-b87e-4be8-8123-dce526eadbe4",
+        "data": {
+            "ean": 6456,
+            "name": "Maçã",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "6f218a08-eb7e-48b1-a97b-d27cd45612e9",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.721Z",
+        "updated_at": "2022-11-14T00:47:04.721Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "112bfcf2-5c1e-4485-8535-2556e8478d17",
+        "data": {
+            "ean": 6456,
+            "name": "Vassoura",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "70987f2c-24b4-4183-855c-1abc66733b88",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.678Z",
+        "updated_at": "2022-11-14T00:47:04.678Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "dfba104b-993c-4cd3-89f0-f10124305227",
+        "data": {
+            "ean": 6456,
+            "name": "Bolo",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "730b9f93-3b5e-4d91-a7bc-f40532b64b2d",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.593Z",
+        "updated_at": "2022-11-14T00:47:04.593Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "10924c0e-55fc-4594-8aed-cd63cb527519",
+        "data": {
+            "ean": 6456,
+            "name": "Frango",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "793ad656-a5c0-4de1-a166-02d102d59009",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.419Z",
+        "updated_at": "2022-11-14T00:47:04.419Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "1efaada1-fcd4-4c5f-8e22-72e79ed4cc80",
+        "data": {
+            "ean": 6456,
+            "name": "Pneu",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "7d9427e3-2468-43cc-b5aa-5fc334370e86",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.463Z",
+        "updated_at": "2022-11-14T00:47:04.463Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "b15b26c5-fc1f-46e3-b37a-0ee020ab4d0d",
+        "data": {
+            "ean": 6456,
+            "name": "Alicate",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "86f163ab-55c4-4278-93c7-2207d71cb768",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.893Z",
+        "updated_at": "2022-11-14T00:47:04.893Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "2d83ba0a-c39d-40bf-807f-af041e016423",
+        "data": {
+            "ean": 6456,
+            "name": "Refrigerante",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "932bc47a-81c5-45c4-b003-17d0a35fa69f",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.394Z",
+        "updated_at": "2022-11-14T00:52:50.394Z",
+        "name": "create_product_cost",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "0d89b9d8-6bc4-4b7c-8f5b-7730de15ea80",
+        "data": {
+            "cost": "10.00",
+            "date": "2022-11-14",
+            "product": "2d83ba0a-c39d-40bf-807f-af041e016423"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "9cda7792-0e70-4ee3-ab97-29727420ecf1",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.255Z",
+        "updated_at": "2022-11-14T00:52:50.255Z",
+        "name": "create_product_cost",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "3051b9e2-8f21-4f47-bd99-d28af862cf0b",
+        "data": {
+            "cost": "10.00",
+            "date": "2022-11-14",
+            "product": "39cf2f0e-e71e-4d77-8298-6140fe5875af"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "b1158f39-a378-4fd2-877a-aed295c87bf1",
+    "fields": {
+        "created_at": "2022-11-14T00:52:50.303Z",
+        "updated_at": "2022-11-14T00:52:50.303Z",
+        "name": "create_product_cost",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "f1235425-eef9-4900-919c-8fdf7ac8ff59",
+        "data": {
+            "cost": "10.00",
+            "date": "2022-11-14",
+            "product": "1efaada1-fcd4-4c5f-8e22-72e79ed4cc80"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "b361bcc6-cf8f-47f7-ab0e-c403a9d88c83",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.764Z",
+        "updated_at": "2022-11-14T00:47:04.764Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "99c4d68b-2068-4567-991b-60c825df13ac",
+        "data": {
+            "ean": 6456,
+            "name": "Martelo",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "b5046224-34c4-4de2-8c28-cf23a38dda0b",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.083Z",
+        "updated_at": "2022-11-14T00:47:04.083Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "38db57c3-e91c-4069-a410-e34860bc2a30",
+        "data": {
+            "ean": 6456,
+            "name": "Alface",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "b53ad2b4-3db1-45aa-a841-568f69085bc3",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.168Z",
+        "updated_at": "2022-11-14T00:47:04.169Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "39cf2f0e-e71e-4d77-8298-6140fe5875af",
+        "data": {
+            "ean": 6456,
+            "name": "Pera",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "ddb18b2b-c279-431c-b7be-1403e14434a1",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.252Z",
+        "updated_at": "2022-11-14T00:47:04.252Z",
+        "name": "create_product",
+        "user_email": "user01@desafio.tradex.com",
+        "entity_id": "6e50970f-d60c-49dc-9dfb-81df28b9aa01",
+        "data": {
+            "ean": 6456,
+            "name": "Carne",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "e5209dba-db3c-4005-8153-3f49806f28f8",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.851Z",
+        "updated_at": "2022-11-14T00:47:04.851Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "aac3b92b-7acc-4043-92ed-aa3756f1d59c",
+        "data": {
+            "ean": 6456,
+            "name": "Sorvete",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "eac48d0f-c5d6-46d4-9af0-34ebeaab7459",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.549Z",
+        "updated_at": "2022-11-14T00:47:04.549Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "ebb7b119-d214-40fe-8d74-0b5450e04abc",
+        "data": {
+            "ean": 6456,
+            "name": "Sabonete",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "f551d79d-329c-4529-a005-fe412e9fc3c7",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.376Z",
+        "updated_at": "2022-11-14T00:47:04.376Z",
+        "name": "create_product",
+        "user_email": "user02@desafio.tradex.com",
+        "entity_id": "719178ae-3145-4b5a-951e-da4d9bda43e5",
+        "data": {
+            "ean": 6456,
+            "name": "Cebola",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "events.event",
+    "pk": "ff451d1d-6e1d-4f54-b117-d1c05d4468d4",
+    "fields": {
+        "created_at": "2022-11-14T00:47:04.636Z",
+        "updated_at": "2022-11-14T00:47:04.636Z",
+        "name": "create_product",
+        "user_email": "user03@desafio.tradex.com",
+        "entity_id": "0643a040-33b5-428e-a446-5463189d40f4",
+        "data": {
+            "ean": 6456,
+            "name": "Pão",
+            "weight": 1,
+            "max_cost": "20.00",
+            "min_cost": "3.00"
+        }
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$vK7IbixE1N8VU503hwb1cU$pLlQE+AAdUvU2Qi9RY+amvF8/8l9zKh93UF67jw2b7I=",
+        "last_login": "2022-11-14T00:47:53.656Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "root@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-14T00:40:38.585Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
